@@ -90,7 +90,7 @@ Open the local URL displayed by Vite, usually `http://localhost:5173`.
 | Python Programming Masterclass | Nidhi Pandey |
 | UI/UX Design Fundamentals | Krishna Gupta |
 | Machine Learning Essentials | Akshat Trivedi |
-| Digital Marketing Strategy | Arjun Shukla |
+| Digital Marketing Strategy | Akshay Banari |
 | React.js From Zero to Hero | Nidhi Pandey |
 
 ## 🔮 Future Improvements

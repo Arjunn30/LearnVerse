@@ -1,0 +1,137 @@
+
+.auth-overlay {
+  position: fixed;
+  inset: 0;
+  background: #050715dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+  backdrop-filter: blur(9px);
+}
+
+.auth-box {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 36px;
+  background: linear-gradient(150deg, #222044, #11182e);
+  border: 1px solid #f26cc45c;
+  border-radius: 20px;
+  box-shadow: 0 25px 80px #000a, 0 0 55px #db39a119;
+  text-align: left;
+  color: #fff;
+}
+
+.auth-close {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  border: 1px solid #ffffff25;
+  background: #ffffff15;
+  color: #fff;
+  padding: 9px 12px;
+  border-radius: 9px;
+  font-size: 15px;
+}
+
+.auth-logo {
+  font-size: 23px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+.auth-logo span { color: #ff6dca; }
+
+.auth-box h2 {
+  font-size: 28px;
+  margin: 0 0 10px;
+  color: #fff;
+  letter-spacing: -.8px;
+}
+
+.auth-subtitle {
+  color: #c5bdd6;
+  font-size: 14px;
+  margin-bottom: 27px;
+  line-height: 1.7;
+}
+
+.auth-field { margin-bottom: 17px; }
+
+.auth-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #e4d8ed;
+}
+
+.auth-field input {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #58516e;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  background: #0b1227;
+  color: #fff;
+}
+
+.auth-field input::placeholder { color: #9193b0; }
+
+.auth-field input:focus {
+  border-color: #ff5fc2;
+  box-shadow: 0 0 0 3px #ff43b127;
+}
+
+.auth-submit {
+  width: 100%;
+  background: linear-gradient(115deg, #ff39b6, #b749eb);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 8px;
+  box-shadow: 0 8px 25px #e42ab22b;
+}
+
+.auth-submit:hover { filter: brightness(1.1); }
+.auth-submit:disabled { opacity: .65; }
+
+.auth-switch {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 13px;
+  color: #c5bdd6;
+}
+
+.auth-switch button {
+  border: none;
+  background: transparent;
+  color: #ff7bd1;
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+.auth-message {
+  font-size: 13px;
+  color: #ffd0e2;
+  background: #a829592e;
+  border: 1px solid #f96ca34d;
+  padding: 12px;
+  border-radius: 9px;
+  margin: 10px 0;
+}
+
+@media (max-width: 480px) {
+  .auth-box {
+    padding: 29px 22px;
+  }
+}
